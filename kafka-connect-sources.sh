@@ -71,3 +71,9 @@ kafka-console-consumer --topic distributed-3-twitter --bootstrap-server 127.0.0.
 # Setup instructions for the connector are at: https://github.com/Eneco/kafka-connect-twitter#setup
 # fill in the required information at demo-3/source-twitter-distributed.properties
 # Launch the connector and start seeing the data flowing in!
+###############
+
+###############
+# D) JDBCSourceConnector:
+# This connector will create a topic for each and every table of your database. Default number of partitions will be 1 for each topic.
+# As soon as you create a new table and enter data into it. A new topic will get created for the table.
