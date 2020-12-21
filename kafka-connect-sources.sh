@@ -77,3 +77,4 @@ kafka-console-consumer --topic distributed-3-twitter --bootstrap-server 127.0.0.
 # D) JDBCSourceConnector:
 # This connector will create a topic for each and every table of your database. Default number of partitions will be 1 for each topic.
 # As soon as you create a new table and enter data into it. A new topic will get created for the table.
+# If you don't want any table to track then add it to blacklist(table.blacklist). Similiarly, if you want to track only few tables then add them to whitelist(table.whitelist).
