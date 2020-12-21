@@ -27,7 +27,7 @@ services:
   # we will use postgres as one of our sinks.
   # This configuration allows you to start postgres
   postgres:
-    image: postgres:9.5-alpine
+    image: postgres:13.1-alpine
     environment:
       POSTGRES_USER: postgres     # define credentials
       POSTGRES_PASSWORD: postgres # define credentials
